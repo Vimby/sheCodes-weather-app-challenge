@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
   background-color: #d9eff7;
   display: flex;
   font-family: "Poppins", sans-serif;
@@ -23,7 +24,7 @@ body {
   width: 70%;
   font-size: 16px;
   padding: 15px 20px;
- margin: 5px;
+ margin: 10px;
 }
 
 .button {
@@ -33,6 +34,14 @@ body {
   font-size: 16px;
   margin: 5px;
   border-radius: 6px;
+}
+
+p{
+    font-size: 14px;
+}
+
+a {
+    color: #131842;
 }
 
 
@@ -52,9 +61,23 @@ body {
 }
 
 .temp-icon {
+    position: relative;
+    top: 20px;
+    bottom: 10px;
      width: 88px;
   height: 92px;
   font-weight: bold;
+}
+
+.degree-celcius {
+    font-size: 28px;
+    position: relative;
+    top: -58px;
+}
+
+.footer {
+padding : 20px 0;
+opacity: 0.6;
 }
 
 
